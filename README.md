@@ -8,6 +8,23 @@ Suiを開発しているMysten Labsには元Diemのメンバーが複数在籍�
 ### Suietとは
 Sui上で動作するウォレットのことで、Ethereumで言うとMetamask的な存在
 
+#### Suiet kit usewallet
+
+```js
+import { useWallet } from '@suiet/wallet-kit';
+
+const App = () => {
+  const {
+    wallet,
+    connected,
+    connecting,
+    getAccounts,
+    signAndExecuteTransaction,
+    signMessage,
+  } = useWallet()
+  return (<.../>)
+};
+```
 
 ### 参考文献
 1. [Example](https://github.com/suiet/wallet-kit/tree/main/examples/with-vite)
