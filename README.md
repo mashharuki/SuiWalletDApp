@@ -1,0 +1,2 @@
+# SuiWalletDApp
+SuiWalletを利用したサンプルDApp用のリポジトリです。
